@@ -8,7 +8,7 @@ The top part of the screen is your editor, divided into html, css, and javascrip
 
 ![Simple Code Pen Example](images/codePenSimple.png)
 
-The next image is from an [example](https://codepen.io/chasewillden/pen/VYLPJxm) given in class. Since we aren't using JavaScript in that class, that section remains empty, but otherwise shows a slightly more robust example of the uses for CodePen. This site organizes/disorganizes the boxes when you click the button.
+The next image is from an [example](https://codepen.io/chasewillden/pen/VYLPJxm) given in class. Since we aren't using JavaScript in that class, that section remains empty, but otherwise shows a slightly more robust example of the uses for CodePen. This site organizes/disorganizes the boxes when you click the toggle button.
 
 ![Complex Code Pen Example](images/codePenComplex.png)
 
