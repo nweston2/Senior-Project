@@ -17,9 +17,21 @@ Unlike C#, you can technically forego the keyword when declaring a variable, but
 
 For many years, this was the only variable type. However, as of 2015, this variable type is outdated. The let and const variables have replaced it. Variables should only ever be initialized with var if your website absolutely has to support old browsers (created prior to 2015). 
 
+One of the major issues with var is that it is allowed to be reassigned.
+```
+var myvariable = 5
+var myvariable = "dinosaur"
+```
+If your code is long, you can end up accidentally using multiple variables with the same name, overwriting them and causing many issues. 
+
 ### let
 
 The "let" keyword allows you to initialize a variable that can change. This is good for variables that will need to be updated as your code runs. My initial thought was that this is a bit silly. Why wouldn't you allow all of your variables to have the ability to change just in case? I can now see the value of only allowing specific variables to vary. 
+
+```
+let year = 1989
+year = 2015
+```
 
 ### const
 
