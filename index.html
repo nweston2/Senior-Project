@@ -8,7 +8,7 @@
 <body>
     <div id="wrapper">
         <header>
-            <img src="images/sprxLogo.png" alt="sprx logo">
+            <a href="https://www.sprx.tax/" target="_blank"><img src="images/sprxLogo.png" alt="sprx logo"></a>
             <h1>Welcome</h1>
         </header>
         <main>
@@ -22,15 +22,38 @@
             </p>
             <div class="calculator">
                 <h3>Calculator</h3>
-                <form action=""></form>
+                <form>
+                    <label for="projectedCost">Anticipated Cost: $</label>
+                    <input type="number" id="projectedCost" name="projectedCost" placeholder="Project Cost" required>
+                    
+                    <label for="projectedHours">Anticipated Hours:</label>
+                    <input type="number" id="projectedHours" name="projectedHours" placeholder="Project Time" required>
+                    
+                    <label for="halfFirst">Paying Half Up Front? </label>
+                    <section>
+                        <input type="radio" name="halfFirst" id="halfFirst" value="Yes" required> Yes
+                        <input type="radio" name="halfFirst" id="halfFirst" value="No"> No
+                    </section>
+
+                    <label for="branch">Branch</label>
+                    <section>
+                        <input type="radio" name="branch" id="branch" value="Birmingham" required> Birmingham
+                        <input type="radio" name="branch" id="branch" value="Gulf Coast"> Gulf Coast
+                        <input type="radio" name="branch" id="branch" value="Huntsville"> Huntsville
+                    </section>
+                </form>
+                <button onclick="calculate()">Calculate</button>
+
                 <h4>Predicted Profit: </h4>
-                <p>$0</p>
+                <p id="prediction">$0</p>
             </div>
         </main>
         <footer>
             <h5>Contact</h5>
-            <a href="https://www.sprx.tax/">SPRX</a>
-            <a href="https://github.com/nweston2">Noah Weston</a>
+            <ul>
+                <li><a href="https://www.sprx.tax/">SPRX</a></li>
+                <li><a href="https://github.com/nweston2">Noah Weston</a></li>
+            </ul>
         </footer>
     </div>
     <script src="script.js"></script>
