@@ -31,15 +31,20 @@
                     
                     <label for="halfFirst">Paying Half Up Front? </label>
                     <section>
-                        <input type="radio" name="halfFirst" id="halfFirst" value="Yes" required> Yes
-                        <input type="radio" name="halfFirst" id="halfFirst" value="No"> No
+                        <input type="radio" name="halfFirst" id="notHalfFirst" value=0 required>
+                        <label for="halfFirst">No</label>
+                        <input type="radio" name="halfFirst" id="halfFirst" value=1> 
+                        <label for="halfFirst">Yes</label>
                     </section>
 
                     <label for="branch">Branch</label>
                     <section>
-                        <input type="radio" name="branch" id="branch" value="Birmingham" required> Birmingham
-                        <input type="radio" name="branch" id="branch" value="Gulf Coast"> Gulf Coast
-                        <input type="radio" name="branch" id="branch" value="Huntsville"> Huntsville
+                        <input type="radio" name="branch" id="birm" value="birm">
+                        <label for="branch">Birmingham</label>
+                        <input type="radio" name="branch" id="gulf" value="golf">
+                        <label for="branch">Gulf Coast</label>
+                        <input type="radio" name="branch" id="hunt" value="nimrod">
+                        <label for="branch">Huntsville</label>
                     </section>
                 </form>
                 <button onclick="calculate()">Calculate</button>
