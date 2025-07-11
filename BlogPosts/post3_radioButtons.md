@@ -4,8 +4,6 @@ There are many ways to get information from a user when making a website. JavaSc
 
 ![Numerical Input Example](images/numericalExample.png)
 
-(examples created using [CodePen](https://codepen.io/pen/))
-
 ## Radio Buttons
 
 Radio buttons are a bit trickier. Radio buttons are used when a single option needs to be selected from a list. In the example above, both the "Paying Half Up Front?" and "Branch" questions use radio buttons.
@@ -41,3 +39,6 @@ To get the value of a radio button, first you have to retrieve all of the input 
 They may be a bit more effort from a coding perspective, but radio buttons are a handy tool when getting categorical information from a webpage's users. Below is an updated example implementing what we've done above.
 
 ![Radio Button Example](images/radioExample.png)
+
+
+(examples created using [CodePen](https://codepen.io/pen/))
