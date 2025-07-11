@@ -2,7 +2,7 @@
 
 There are many ways to get information from a user when making a website. JavaScript can come in particularly handy when handling user input. Most input types are fairly straightforward, like in the example below. Here we are getting the anticipated cost of a project from the user.
 
-![Numerical Input Example]()
+![Numerical Input Example](images/numericalExample.png)
 
 Radio buttons are a bit trickier. Radio buttons are used when a single option needs to be selected from a list. In the example above, both the "Paying Half Up Front?" and "Branch" questions use radio buttons.
 
@@ -28,4 +28,4 @@ The problem comes when you move over to JavaScript. In the numerical example abo
 
 They may be a bit more effort from a coding perspective, but radio buttons are a handy tool when getting categorical information from a webpage's users. Below is an updated example implementing what we've done above.
 
-![Radio Button Example]()
+![Radio Button Example](images/radioExample.png)
